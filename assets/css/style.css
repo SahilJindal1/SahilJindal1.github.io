@@ -236,7 +236,7 @@ article.active {
 
 .h5 {
   font-size: var(--fs-7);
-  font-weight: var(--fw-500);
+  font-weight: var(--fw-300);
 }
 
 .article-title {
@@ -829,6 +829,12 @@ main {
   line-height: 1.6;
 }
 
+.timeline-link{
+  color: var(--vegas-gold);
+  text-decoration: underline;
+  font-weight: var(--fw-500);
+}
+
 
 /**
  * skills 
@@ -867,7 +873,29 @@ main {
   border-radius: inherit;
 }
 
+/**
+* Publication
+*/
 
+.publication-title { margin-bottom: 20px; }
+
+.publication-list { padding: 20px; }
+
+
+.publication-item:not(:last-child) { margin-bottom: 15px; }
+
+.publication .title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.publication .title-wrapper data {
+  color: var(--light-gray);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+}
 
 
 

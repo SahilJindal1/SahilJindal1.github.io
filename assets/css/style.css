@@ -832,7 +832,7 @@ main {
 .timeline-link{
   color: var(--vegas-gold);
   text-decoration: underline;
-  font-weight: var(--fw-500);
+  font-weight: var(--fw-300);
 }
 
 
